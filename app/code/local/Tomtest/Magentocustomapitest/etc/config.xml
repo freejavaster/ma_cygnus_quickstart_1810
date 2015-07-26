@@ -1,0 +1,35 @@
+<?xml version=”1.0″?>
+<config>
+	<global>
+		<modules>
+			<Tomtest_Magentocustomapitest>
+				<version>0.1.0</version>
+			</Tomtest_Magentocustomapitest>
+		</modules>
+		<blocks>
+			<Magentocustomapitest>
+				<rewrite>
+				<Magentocustomapitest>Tomtest_Magentocustomapitest_Block_Magentocustomapitest</Magentocustomapitest>
+				</rewrite>
+			</Magentocustomapitest>
+		</blocks>
+	</global>
+	<frontend>
+		<routers>
+			<Magentocustomapitest>
+				<use>standard</use>
+				<args>
+					<module>Tomtest_Magentocustomapitest</module>
+					<frontName>Magentocustomapitest</frontName>
+				</args>
+			</Magentocustomapitest>
+		</routers>
+		<layout>
+			<updates>
+				<Magentocustomapitest>
+				<file>Magentocustomapitest.xml</file>
+				</Magentocustomapitest>
+			</updates>
+		</layout>
+	</frontend>
+</config>

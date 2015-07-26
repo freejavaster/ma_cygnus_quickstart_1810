@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tomtest_Magentocustomapitest1>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </Tomtest_Magentocustomapitest1>
+    </modules>
+</config>

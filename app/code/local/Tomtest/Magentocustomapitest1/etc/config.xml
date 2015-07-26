@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tomtest_Magentocustomapitest1>
+            <version>1.0.0</version>
+        </Tomtest_Magentocustomapitest1>
+    </modules>
+    <global>
+    </global>
+</config>
